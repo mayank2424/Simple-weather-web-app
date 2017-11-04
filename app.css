@@ -13,7 +13,7 @@ body,html{
 }
 
 #showWeather{
-	background: blue;
+	background: #1E90FF;
 	color: white;
 	border: 0px;
 	height: 50px;
@@ -39,6 +39,7 @@ body,html{
      font-size: 20px;
      font-weight: bold;
      margin-bottom: 100px;
+     box-shadow: 0 0 20px black;
 }
 h1{
 	color: white;
@@ -50,7 +51,7 @@ h1{
 
 
 #wrapper h4{
-	height: 100px;
+	height: 60px;
 	width: 150px;
 	padding: 10px;
 	float: left;
@@ -62,6 +63,7 @@ h1{
      text-align: left;
      font-size: 18px;
      font-weight: bolder;
+     box-shadow: 0 0 40px black;
 }
 
 .bottom{
@@ -75,4 +77,8 @@ h1{
 	padding: 10px;
 	font-size: 18px;
 }
+#showWeather:hover{
+	opacity: 0.8;
+	color: white;
+	}
 
