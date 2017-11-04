@@ -10,7 +10,7 @@ $(document).ready(function () {
         lat = position.coords.latitude;
         lon = position.coords.longitude;
         
-        calling_url = 'http://api.openweathermap.org/data/2.5/weather?lat=' +
+        calling_url = 'https://api.openweathermap.org/data/2.5/weather?lat=' +
                   lat + '&lon=' + 
                   lon + '&units=metric&APPID=c163216a9c6c34e2df6f68b68ca79aed';
         
